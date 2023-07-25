@@ -8,14 +8,14 @@ import java.util.List;
 
 public class Team {
 
-    List<Member> teamMember = new ArrayList<>();
-    Boss boss;
+    public List<Member> teamMember;
+    public Boss boss;
 
-    String name;
+    public String name;
 
-    String location;
+    public String location;
 
-    String logo;
+    public String logo;
 
-    int value;
+    public int value;
 }

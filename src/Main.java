@@ -1,30 +1,39 @@
+import main.League.Team;
+import main.TeamPackage.Boss;
+import main.TeamPackage.Member;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
-        //32bit
-        int number = 1;
-        //64bit
-        long number2 = 1L;
-        //16bit
-        short s = 1;
+        Team a = new Team();
+        Team b = new Team();
 
-        //8bit
-        byte b = 1;
-        System.out.println("max int value = "+Integer.MAX_VALUE);
-        System.out.println("min int value = "+Integer.MIN_VALUE);
+        a.name = "laker";
+        b.name = "wolf";
 
-        float xiao = 1.1f;
-        double xiao2 = 0.1;
+        Boss boss1 = new Boss();
+        a.boss = boss1;
 
-        char c = 'a';
-        char c2 = 's';
+        //首先创建两个member,
+        //然后创建一个空的List
+        //最后把两个Member加入List
+        Member member1 = new Member();
+        Member member2 = new Member();
+        List<Member> teamMember = new ArrayList<>();
+        teamMember.add(member2);
+        teamMember.add(member1);
 
-//      String char的集合
+        a.teamMember = teamMember;
 
+        a.location = "LA";
+        a.logo = "lakerLogo";
 
-        boolean isN = true;
-        boolean ist = false;
+        a.value = 1000000;
 
+        System.out.println(a);
 
 
 
