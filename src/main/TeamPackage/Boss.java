@@ -1,5 +1,5 @@
 package main.TeamPackage;
 
 public class Boss {
-    String name;
+    public String name;
 }

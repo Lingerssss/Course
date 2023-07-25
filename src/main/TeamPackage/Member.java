@@ -2,7 +2,7 @@ package main.TeamPackage;
 
 public class Member {
 
-    String name;
+    public String name;
     int age;
 
     String position;

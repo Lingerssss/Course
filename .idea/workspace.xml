@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e07081-c8a6-463e-991b-557b9c39ad0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/dataType/data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/League/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/League/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TeamPackage/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TeamPackage/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +73,23 @@
       <option name="presentableId" value="Default" />
       <updated>1689777780799</updated>
       <workItem from="1689777782111" duration="2709000" />
-      <workItem from="1690294060480" duration="2480000" />
+      <workItem from="1690294060480" duration="4468000" />
     </task>
+    <task id="LOCAL-00001" summary="[jiaxi &amp; jiayue] feat: init Team">
+      <created>1690296726237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690296726237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[jiaxi &amp; jiayue] feat: init Team" />
+    <option name="LAST_COMMIT_MESSAGE" value="[jiaxi &amp; jiayue] feat: init Team" />
   </component>
 </project>
